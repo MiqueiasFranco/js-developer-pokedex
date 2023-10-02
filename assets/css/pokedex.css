@@ -254,25 +254,3 @@ li .ability {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
-
-@keyframes showCaracter {
-    from {
-        bottom: -100%;
-    }
-
-    top {
-        bottom: 100%;
-        display: block;
-    }
-}
-
-@keyframes tohide {
-    from {
-        bottom: 100%;
-    }
-
-    top {
-        bottom: -100%;
-        display: none;
-    }
-}
